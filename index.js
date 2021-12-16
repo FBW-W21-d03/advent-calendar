@@ -41,85 +41,85 @@
         author: "Ernest Hemingway"
     });
     quotesArray.push({
-        text: "Zitat 4 Dummy Text",
-        author: "John Smith"
+        text: "Saufen ist besser als Rauchen.",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 5 Dummy Text",
-        author: "John Smith"
+        text: "Von draußen komme ich rein stecke deine Sachen ein.",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 6 Dummy Text",
-        author: "John Smith"
+        text: "Ist der Bart lang und weiß brauchst du keinen Impausweis.",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 7 Dummy Text",
-        author: "John Smith"
+        text: "Geschenke unter den Baum für die Kinder ein Traum.",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 8 Dummy Text",
-        author: "John Smith"
+        text: "Mit dem Schlitten die piste runter macht die alten Männer munter.",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 9 Dummy Text",
-        author: "John Smith",
+        text: "Kommt das Rentier weit von oben ist es wohl vom Himmel geflogen.",
+        author: "Der Metatron",
         src: "/images/pictureOfDay9"
     });
     quotesArray.push({
-        text: "Zitat 10 Dummy Text",
-        author: "John Smith"
+        text: "Kommt der Weinachtsmann vorbei ist bei den Kindern groß das Geschrei.",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 11 Dummy Text",
-        author: "John Smith"
+        text: "Der baum ist schön geschmückt die Mutter macht sich schick die Kinder warten mit offenen blick.",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 12 Dummy Text",
-        author: "John Smith"
+        text: "Ein weißer Bart, ein dicker Bauch passt auf euer Schornstein auf.",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 13 Dummy Text",
-        author: "John Smith"
+        text: "Geschenke auf von Nikolaus",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 14 Dummy Text",
-        author: "John Smith"
+        text: "Wen die Weinachtsglocken bimmeln fangen wir alle an zu singen.",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 15 Dummy Text",
-        author: "John Smith"
+        text: "Leise rieselt der Schnee die Nase tut dan Weh.",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 16 Dummy Text",
-        author: "John Smith"
+        text: "Ist es draußen kalt und Nass, rauchst du am besten etwas Hasch.",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 17 Dummy Text",
-        author: "John Smith"
+        text: "Der Schneeman steht draußen vor der Tür kommt bald der Weinachtsmann vorbei zu dir.",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 18 Dummy Text",
-        author: "John Smith"
+        text: "Im Wald da steht der Tannenbaum im Sommer fallen die Nadeln in dein Raum.",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 19 Dummy Text",
-        author: "John Smith"
+        text: "Ist das Jahr fast zu ende dann kommt bald die Wende.",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 20 Dummy Text",
-        author: "John Smith"
+        text: "Kommt der Engel aus den Himmel trinkst du zu viel Kümmel.",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 21 Dummy Text",
-        author: "John Smith"
+        text: "Wen es Schneit und dunkel ist siehst du deine Mutter nicht.",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 22 Dummy Text",
-        author: "John Smith"
+        text: "Der Glühwein schmeckt den Vater gut die Mutter findets garnicht gut",
+        author: "Der Metatron"
     });
     quotesArray.push({
-        text: "Zitat 23 Dummy Text",
-        author: "John Smith"
+        text: "Den Schlitten raus die Jacken an morgen kommt der Weinachtsmann.",
+        author: "Der Metatron"
     });
     quotesArray.push({
         text: "Zitat 24 Dummy Text",

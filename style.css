@@ -18,12 +18,17 @@ div{
     font-size: 16px;
     text-align: center;
     padding: 5vh 0;
+    opacity: 0.5;
+}
+
+ .modal {
+    opacity: 1;
 }
 
 h1 {
     text-align: center;
     color: gold;
-    text-shadow: 0 0 9px black;
+    text-shadow: 2px 4px coral;
 }
 
 div:hover {
