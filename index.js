@@ -1,7 +1,121 @@
-function showGift(){
-    // TODO: prüfen, ob der Tag in der Vergangenheit oder Gegenwart liegt, dann Zitat anzeigen, sost nicht
-
-    // TODO: Für jeden Tag ein Zitat
-
-    // TODO: Das Zitat anzeigen
+    // welcher Tag ist heute?
+let date = new Date().getDate(); // => 16
+for(i=1; i<=date; i++) {
+document.getElementById(i).style = "background-color: violet";
 }
+
+function showGift(indexTag){
+    // prüfen, ob der Tag in der Vergangenheit oder Gegenwart liegt, dann Zitat anzeigen, sost nicht
+    if(indexTag > date){
+        // Türchen ist noch nicht frei
+        alert("Try again another day.")
+    } else {
+        // Zitat anzeigen
+        alert(quotesArray[indexTag -1].text + " von Author: " + quotesArray[indexTag -1].author);
+    }
+}
+
+// quote = Zitat => im Array
+let quotesArray = [];
+
+// Zitate erstellen
+quotesArray.push({
+    text: "Christmas is built upon a beautiful and intentional paradox; that the birth of the homeless should be celebrated in every home",
+    author: "G.K. Chesterton"
+});
+quotesArray.push({
+    text: "The rooms were very still while the pages were softly turned and the winter sunshine crept in to touch the bright heads and serious faces with a Christmas greeting",
+    author: "Louisa May Alcott"
+});
+quotesArray.push({
+    text: "If my Valentine you won't be, I'll hang myself on your Christmas tree.",
+    author: "Ernest Hemingway"
+});
+quotesArray.push({
+    text: "Zitat 4 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 5 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 6 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 7 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 8 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 9 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 10 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 11 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 12 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 13 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 14 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 15 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 16 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 17 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 18 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 19 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 20 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 21 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 22 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 23 Dummy Text",
+    author: "John Smith"
+});
+quotesArray.push({
+    text: "Zitat 24 Dummy Text",
+    author: "John Smith"
+});
+
+
+console.log(quotesArray);
+console.log(quotesArray.length);
