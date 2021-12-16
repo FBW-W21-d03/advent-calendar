@@ -1,0 +1,68 @@
+body {
+    background-color: floralwhite;
+    background-image: url(./frohejpg);
+}
+
+main{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+div{
+    display: inline-block;
+    width: 13%;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 1rem;
+    font-size: 16px;
+    text-align: center;
+    padding: 5vh 0;
+}
+
+h1 {
+    text-align: center;
+    color: gold;
+    text-shadow: 0 0 9px black;
+}
+
+div:hover {
+    background-color: blanchedalmond;
+    cursor: pointer;
+
+
+}
+
+.restricted:hover {
+    background-color: rgb(241, 148, 26);
+    cursor: default;
+}
+
+div p {
+    padding-top: 10px;
+}
+
+section {
+    font-size: 0px;
+}
+
+#calendarHeader div{
+    overflow: scroll;
+    font-weight: bold;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding: 0px;
+    top: 10vh;
+    left: 35vw;
+    width: 30vw; /* Full width */
+  }
+
+.modal div {
+    width: 100%;
+}
