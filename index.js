@@ -5,14 +5,23 @@ document.getElementById(i).style = "background-color: violet";
 }
 
 function showGift(indexTag){
+    let modal = document.getElementById("myModal");
+    modal.style.display = "block";
     // prüfen, ob der Tag in der Vergangenheit oder Gegenwart liegt, dann Zitat anzeigen, sost nicht
     if(indexTag > date){
         // Türchen ist noch nicht frei
         alert("Try again another day.")
     } else {
+        document.getElementById("quote").innerHTML = quotesArray[indexTag -1].text;
+        document.getElementById("author").innerHTML = quotesArray[indexTag -1].author;
         // Zitat anzeigen
-        alert(quotesArray[indexTag -1].text + " von Author: " + quotesArray[indexTag -1].author);
+        //alert(quotesArray[indexTag -1].text + " von Author: " + quotesArray[indexTag -1].author);
     }
+}
+
+function closeModal(){
+    let modal = document.getElementById("myModal");
+    modal.style.display = "none";
 }
 
 // quote = Zitat => im Array
@@ -53,7 +62,8 @@ quotesArray.push({
 });
 quotesArray.push({
     text: "Zitat 9 Dummy Text",
-    author: "John Smith"
+    author: "John Smith",
+    src: "/images/pictureOfDay9"
 });
 quotesArray.push({
     text: "Zitat 10 Dummy Text",

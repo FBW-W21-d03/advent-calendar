@@ -1,6 +1,16 @@
+body{
+    background-color: green;
+}
+
+main{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
 div{
     display: inline-block;
-    width: 10vw;
+    width: 13%;
     background-color: aliceblue;
     border: 1px solid black;
     font-size: 16px;
@@ -28,7 +38,22 @@ section{
 }
 
 #calendarHeader div{
+    overflow: scroll;
     font-weight: bold;
     background-color: beige;
     border-radius: 10px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding: 0px;
+    top: 10vh;
+    left: 35vw;
+    width: 30vw; /* Full width */
+  }
+
+.modal div {
+    width: 100%;
 }
