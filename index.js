@@ -6,12 +6,12 @@ document.getElementById(i).style = "background-color: violet";
 
 function showGift(indexTag){
     let modal = document.getElementById("myModal");
-    modal.style.display = "block";
     // prüfen, ob der Tag in der Vergangenheit oder Gegenwart liegt, dann Zitat anzeigen, sost nicht
     if(indexTag > date){
         // Türchen ist noch nicht frei
         alert("Try again another day.")
     } else {
+        modal.style.display = "block";
         document.getElementById("quote").innerHTML = quotesArray[indexTag -1].text;
         document.getElementById("author").innerHTML = quotesArray[indexTag -1].author;
         // Zitat anzeigen
@@ -125,7 +125,3 @@ quotesArray.push({
     text: "Zitat 24 Dummy Text",
     author: "John Smith"
 });
-
-
-console.log(quotesArray);
-console.log(quotesArray.length);
