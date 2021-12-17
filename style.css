@@ -1,6 +1,8 @@
 body {
     background-color: floralwhite;
     background-image: url(./frohejpg);
+    min-height: 100vh;
+background-size: cover;
 }
 
 main{
